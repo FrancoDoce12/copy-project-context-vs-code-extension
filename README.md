@@ -12,25 +12,25 @@ This extension adds 4 commands each with one button:
 
 ### 1. Copy Project Context  
 - **Command**: `copy-project-context.copy-project-context`  
-- **Button Label**: *Copy Project Context*  
+- **Button Label**: *Copy Project Context ⏣*  
 - **Description**: Copies the project structure and the content of all files added to the context.  
 - **Button Visibility**: Shown when right-clicking on any part of the file explorer.  
 
 ### 2. Add File Content to Context  
 - **Command**: `copy-project-context.add-file-path-to-context`  
-- **Button Label**: *Add File Content to Project Context*  
+- **Button Label**: *Add File Content to Project Context ⏣*  
 - **Description**: Adds the content of a file to the project context for copying.  
 - **Button Visibility**: Shown when right-clicking on a file in the file explorer.  
 
 ### 3. Delete All Files from Context  
 - **Command**: `copy-project-context.delete-file-paths-of-context`  
-- **Button Label**: *Delete All Files From Project Context*  
+- **Button Label**: *Delete All Files From Project Context ⏣*  
 - **Description**: Clears all files from the project context.  
 - **Button Visibility**: Shown when right-clicking on any part of the file explorer.  
 
 ### 4. Show All Files in Context  
 - **Command**: `copy-project-context.show-all-file-paths-from-context`  
-- **Button Label**: *Show All Files in Project Context*  
+- **Button Label**: *Show All Files in Project Context ⏣*  
 - **Description**: Displays a list of all files currently added to the project context.  
 - **Button Visibility**: Shown when right-clicking on any part of the file explorer. 
 
