@@ -1,10 +1,10 @@
 # Copy Project Context VS Code Extencion
 
-## A easy tool for vs code that allows you to copy your project structure and files in a fast way to use as context for asking to your favorite IA model or anything else. 
+## A easy tool for vs code that allows you to copy your project structure and files in a fast way to use as context for asking to your favorite AI model or anything else. 
 
-Sometimes explaining what your project do, state is, structure are or technologies are involved takes time to explain properly to an IA or anything else. That's why I create this extension that allows you to copy the project structure and files from the vs code explorer.
+Sometimes explaining what your project do, state is, structure are or technologies are involved takes time to explain properly to an AI or anything else. That's why I create this extension that allows you to copy the project structure and files from the vs code explorer.
 
-The project structure can give valuable information about the type of project, the current state of the project, the technologies used and general information about it. sometimes it is all an IA needs to better understand your projects problems, errors and questions.
+The project structure can give valuable information about the type of project, the current state of the project, the technologies used and general information about it. sometimes it is all an AI needs to better understand your projects problems, errors and questions.
 
 ## Features
 

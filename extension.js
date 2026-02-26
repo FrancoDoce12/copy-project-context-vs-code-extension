@@ -46,7 +46,32 @@ function activate(context) {
 
 		vscode.env.clipboard.writeText(proyectStructure);
 
-		vscode.window.showInformationMessage("Project structure copied on the clipboard!");
+		
+		let filePaths = wsSetting.filePathsToContext
+
+		let length = filePaths.length
+
+		let filesMessage = ""
+
+		let conector = ""
+
+		let doublePoints = ""
+
+		if (length > 1) { conector = "," }
+
+		if (length > 0) { doublePoints = ":" }
+
+		for (const i in filePaths) {
+			const fileUri = filePaths[i];
+
+			filesMessage = `${filesMessage} "${getFileNameFromPath(fileUri.path)}"${conector}\n`;
+		}
+
+		let plural = wsSetting.filePathsToContext.length == 1 ? '' : 's'
+
+		let message = `Project structure copied on the clipboard! with ${wsSetting.filePathsToContext.length} file${plural}${doublePoints} \n ${filesMessage}`
+
+		vscode.window.showInformationMessage(message);
 
 	});
 

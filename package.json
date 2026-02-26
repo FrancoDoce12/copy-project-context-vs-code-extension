@@ -1,8 +1,8 @@
 {
   "name": "copy-project-context",
-  "displayName": "Copy Project Context",
-  "description": "A easy tool for vs code that allows you to copy your project structure and files in a fast way to use as context for asking to your favorite IA model or anything else.",
-  "version": "1.0.5",
+  "displayName": "Copy Project Context ⏣",
+  "description": "A easy tool for vs code that allows you to copy your project structure and files in a fast way to use as context for asking to your favorite AI model or anything else.",
+  "version": "1.0.6",
   "publisher": "FrancoDoce12",
   "engines": {
     "vscode": "^1.95.0"
@@ -12,11 +12,19 @@
     "Other"
   ],
   "keywords": [
-    "tree",
+    "AI",
+    "copy project",
+    "copy project context",
+    "copy project structure",
+    "copy file structure",
+    "copy structure",
+    "file tree",
+    "file",
+    "copy",
     "context",
     "project",
     "structure",
-    "copy"
+    "ai"
   ],
   "activationEvents": [
     "onStartupFinished"
@@ -82,19 +90,19 @@
     "commands": [
       {
         "command": "copy-project-context.copy-project-context",
-        "title": "Copy Project Context"
+        "title": "Copy Project Context ⏣"
       },
       {
         "command": "copy-project-context.add-file-path-to-context",
-        "title": "Add File Content to Proyect Context"
+        "title": "Add File Content to Proyect Context ⏣"
       },
       {
         "command": "copy-project-context.delete-file-paths-of-context",
-        "title": "Delete All Files From Proyect Context"
+        "title": "Delete All Files From Proyect Context ⏣"
       },
       {
         "command": "copy-project-context.show-all-file-paths-from-context",
-        "title": "Show all Files Added to the Project Context"
+        "title": "Show all Files Added to the Project Context ⏣"
       }
     ]
   },
