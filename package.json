@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "categories": [
-    "Other"
+    "Other", "AI", "Extension Packs", "Education", "Snippets"
   ],
   "keywords": [
     "AI",
@@ -21,6 +21,7 @@
     "file tree",
     "file",
     "copy",
+    "clipboard",
     "context",
     "project",
     "structure",
